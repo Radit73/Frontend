@@ -1,0 +1,1 @@
+import{j as s}from"./index-Bfh4GqGX.js";const n=({title:i,subtitle:e})=>s.jsxs("div",{className:"section-title",children:[s.jsx("h3",{children:i}),e&&s.jsx("p",{children:e}),s.jsx("span",{className:"section-title__line"})]});export{n as S};

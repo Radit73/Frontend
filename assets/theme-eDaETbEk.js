@@ -1,0 +1,1 @@
+const t="gamelokal_theme",n=()=>{typeof window<"u"&&window.dispatchEvent(new Event("theme-changed"))},a=e=>{const o=e==="light"?"light":"dark";localStorage.setItem(t,o),n()},r=()=>{try{return localStorage.getItem(t)==="light"?"light":"dark"}catch{return"dark"}};export{r as g,a as s};
